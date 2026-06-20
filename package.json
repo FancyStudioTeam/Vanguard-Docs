@@ -1,0 +1,36 @@
+{
+	"name": "vanguard-docs",
+	"private": true,
+	"description": "Vanguard's Official Documentation",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FancyStudioTeam/Vanguard-Docs"
+	},
+	"license": "AGPL-3.0-only",
+	"author": "Vanguard Working Group",
+	"type": "module",
+	"scripts": {
+		"biome:check": "biome check",
+		"biome:ci": "biome ci",
+		"biome:write": "biome check --write",
+		"prepare": "husky",
+		"vitepress:build": "vitepress build docs",
+		"vitepress:dev": "vitepress dev docs",
+		"vitepress:preview": "vitepress preview docs"
+	},
+	"nano-staged": {
+		"**/*.{js,jsx,ts,tsx,json,css}": "pnpm biome:write"
+	},
+	"dependencies": {
+		"vitepress": "1.6.4"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.0",
+		"@commitlint/cli": "21.0.2",
+		"@commitlint/config-conventional": "21.0.2",
+		"@commitlint/types": "21.0.1",
+		"husky": "9.1.7",
+		"nano-staged": "1.0.2"
+	},
+	"packageManager": "pnpm@11.6.0"
+}

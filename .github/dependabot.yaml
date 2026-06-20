@@ -1,0 +1,11 @@
+updates:
+    - directory: /
+      labels:
+          - Dependabot
+          - JavaScript
+      package-ecosystem: npm
+      schedule:
+          interval: daily
+      versioning-strategy: increase
+
+version: 2

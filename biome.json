@@ -1,0 +1,93 @@
+{
+	"$schema": "node_modules/@biomejs/biome/configuration_schema.json",
+	"assist": {
+		"actions": {
+			"preset": "recommended",
+			"source": {
+				"organizeImports": {
+					"level": "on",
+					"options": {
+						"groups": [
+							[
+								":NODE:",
+								":BUN:"
+							],
+							":BLANK_LINE:",
+							":PACKAGE:",
+							":BLANK_LINE:",
+							[
+								":ALIAS:",
+								":PATH:"
+							]
+						]
+					}
+				},
+				"useSortedKeys": "on",
+				"useSortedPackageJson": "on"
+			}
+		},
+		"enabled": true
+	},
+	"css": {
+		"formatter": {
+			"quoteStyle": "single"
+		}
+	},
+	"files": {
+		"includes": [
+			"**",
+			"!!**/.vitepress/cache"
+		]
+	},
+	"formatter": {
+		"enabled": true,
+		"expand": "always",
+		"indentStyle": "tab",
+		"indentWidth": 4,
+		"lineEnding": "lf",
+		"lineWidth": 100
+	},
+	"javascript": {
+		"formatter": {
+			"jsxQuoteStyle": "single",
+			"quoteStyle": "single"
+		}
+	},
+	"linter": {
+		"domains": {
+			"project": "all"
+		},
+		"enabled": true,
+		"rules": {
+			"correctness": {
+				"useImportExtensions": {
+					"level": "error",
+					"options": {
+						"forceJsExtensions": false
+					}
+				}
+			}
+		}
+	},
+	"overrides": [
+		{
+			"assist": {
+				"actions": {
+					"source": {
+						"useSortedKeys": "off"
+					}
+				}
+			},
+			"includes": [
+				"package.json"
+			]
+		}
+	],
+	"root": true,
+	"vcs": {
+		"clientKind": "git",
+		"defaultBranch": "main",
+		"enabled": true,
+		"useIgnoreFile": true
+	}
+}
