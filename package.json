@@ -19,7 +19,7 @@
 		"prepare": "husky",
 		"vitepress:build": "vitepress build docs",
 		"vitepress:dev": "vitepress dev docs",
-		"vitepress:preview": "vitepress preview docs"
+		"vitepress:preview": "vitepress preview --port 3102 docs"
 	},
 	"nano-staged": {
 		"**/*.{js,jsx,ts,tsx,json,css}": "pnpm biome:write"
