@@ -5,7 +5,6 @@ import { SPANISH_THEME_CONFIG } from './locales/Spanish.ts';
 
 export default defineConfig({
 	appearance: 'force-dark',
-	base: '/docs/',
 	cleanUrls: true,
 	locales: {
 		es: {
