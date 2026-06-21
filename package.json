@@ -13,13 +13,10 @@
 		"biome:check": "biome check",
 		"biome:ci": "biome ci",
 		"biome:write": "biome check --write",
-		"docker:build": "docker build --tag vanguard-docs --file Dockerfile .",
-		"docker:run": "docker run -d -p 3102:3102 vanguard-docs",
-		"docker:run:sh": "docker run -it --rm vanguard-docs sh",
 		"prepare": "husky",
 		"vitepress:build": "vitepress build docs",
 		"vitepress:dev": "vitepress dev docs",
-		"vitepress:preview": "vitepress preview --port 3102 docs"
+		"vitepress:preview": "vitepress preview docs"
 	},
 	"nano-staged": {
 		"**/*.{js,jsx,ts,tsx,json,css}": "pnpm biome:write"
