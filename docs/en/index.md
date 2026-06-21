@@ -36,7 +36,7 @@ Vanguard is designed to help you **build your own systems from scratch** by defi
 This documentation **is specifically written to explain how** the **various features** offered by Vanguard in its systems work.
 
 :::tip Documentation in Different Languages
-The documentation **is also available in different languages**: [**English**](/) and [**Español**](/es/).
+The documentation **is also available in different languages**: [**English**](/en/) and [**Español**](/es/).
 :::
 
 :::warning Read Before You Begin

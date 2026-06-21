@@ -36,7 +36,7 @@ Vanguard está pensado para **diseñar tus propios sistemas desde cero**, defini
 Esta documentación **está redactada de forma explícita para indicar el funcionamiento** de las **diferentes funcionalidades** que ofrece Vanguard en sus sistemas.
 
 :::tip Documentación en Diferentes Idiomas
-La documentación **está también redactada en diferentes idiomas**: [**English**](/) y [**Español**](/es/).
+La documentación **está también redactada en diferentes idiomas**: [**English**](/en/) y [**Español**](/es/).
 :::
 
 :::warning Leer antes de Comenzar
