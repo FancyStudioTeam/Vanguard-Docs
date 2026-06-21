@@ -27,7 +27,7 @@ export const ENGLISH_THEME_CONFIG: LocaleSpecificConfig<DefaultTheme.Config> = {
 		},
 		sidebar: [
 			{
-				base: '/general-information/',
+				base: '/en/general-information/',
 				items: [
 					{
 						link: 'premium-features',
@@ -37,7 +37,7 @@ export const ENGLISH_THEME_CONFIG: LocaleSpecificConfig<DefaultTheme.Config> = {
 				text: 'General Information',
 			},
 			{
-				base: '/plugins/',
+				base: '/en/plugins/',
 				collapsed: false,
 				items: [
 					{
