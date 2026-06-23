@@ -1,6 +1,8 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress';
 
 export const ENGLISH_THEME_CONFIG: LocaleSpecificConfig<DefaultTheme.Config> = {
+	description:
+		"In this documentation, you'll learn about all the available features for thoroughly customizing Vanguard and unlocking its full potential.",
 	lang: 'en-US',
 	themeConfig: {
 		docFooter: {
