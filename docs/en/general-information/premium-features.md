@@ -21,7 +21,7 @@ config:
     # but Vanguard will allow its settings to be saved.
 
     # The nickname format will be: [Member] Vanguard
-    member_nickname: "[Member] {{ member.display_name }}""
+    member_nickname: "[Member] {{ member.display_name }}"
 ```
 
 When the system starts running, Vanguard **will check whether the community has a premium membership**.
