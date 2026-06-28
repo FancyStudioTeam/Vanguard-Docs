@@ -38,7 +38,7 @@ export default defineConfig({
 		socialLinks: [
 			{
 				icon: 'github',
-				link: 'https://github.com/FancyStudioTeam/Vanguard',
+				link: 'https://github.com/FancyStudioTeam/Vanguard-Docs',
 			},
 		],
 	},

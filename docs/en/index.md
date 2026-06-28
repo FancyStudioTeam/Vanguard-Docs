@@ -42,3 +42,7 @@ The documentation **is also available in different languages**: **English** and 
 :::warning Read Before You Begin
 We strongly urge users to **read the documentation carefully before configuring any feature**.
 :::
+
+## Note on Source Code
+
+Currently, Vanguard **does not have its source code available**. However, **we plan to open-source it in the future** once the codebase **is mature enough**.

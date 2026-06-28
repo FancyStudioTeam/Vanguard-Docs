@@ -42,3 +42,7 @@ La documentación **está también redactada en diferentes idiomas**: **English*
 :::warning Leer antes de Comenzar
 Rogamos encarecidamente que los usuarios **lean detenidamente la documentación antes de configurar cualquier funcionalidad**.
 :::
+
+## Nota sobre Código Fuente
+
+Actualmente, Vanguard **no tiene su código fuente disponible**. Sin embargo, **planeamos abrir su código fuente en un futuro** cuando la base de código **esté lo suficientemente madura**.
