@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import llmstxt from 'vitepress-plugin-llms';
 
 import { ENGLISH_THEME_CONFIG } from './locales/English.ts';
 import { SPANISH_THEME_CONFIG } from './locales/Spanish.ts';
@@ -42,4 +43,14 @@ export default defineConfig({
 		],
 	},
 	title: 'Vanguard',
+	vite: {
+		plugins: [
+			llmstxt({
+				ignoreFiles: [
+					'index.md',
+				],
+				workDir: 'en',
+			}),
+		],
+	},
 });
